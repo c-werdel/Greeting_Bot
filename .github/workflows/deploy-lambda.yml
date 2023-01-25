@@ -26,3 +26,5 @@ jobs:
       - name: AWS Deploy
         run: |
           aws lambda update-function-code --function-name arn:aws:lambda:us-east-1:297098627551:function:slack_greeting --zip-file fileb://lambda.zip
+          aws lambda invoke --function-name arn:aws:lambda:us-east-1:297098627551:function:slack_greeting --cli-binary-format raw-in-base64-out --payload '{ "key": "value" }' response.yml
+          
