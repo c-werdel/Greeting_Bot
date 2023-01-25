@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 			"type": 'section',
 			"text": {
 				"type": "mrkdwn",
-				"text": "Good Afternoon: Cascade Team"
+				"text": "Good Morning: Cascade Team"
 			}
 		}
 	]
