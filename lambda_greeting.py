@@ -14,8 +14,6 @@ def lambda_handler(event, context):
 			"text": {
 				"type": "mrkdwn",
 				"text": "Good Morning: Cascade Team"
-				{
-	
 			}
 		}
 	]
