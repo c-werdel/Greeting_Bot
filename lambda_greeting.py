@@ -8,22 +8,14 @@ def lambda_handler(event, context):
     hook_url = os.environ["webhook"]
 
     payload = {
-# 	"blocks": [
-# 		{
-# 			"type": 'section',
-# 			"text": {
-# 				"type": "mrkdwn",
-# 				"text": "Good Morning: Cascade Team"
-# 				{
-	 "attachments": [
+	"blocks": [
 		{
-		    "fallback": "Error could not show image.",
-		    "text": "Good Morning: Cascade Team"
-		    "image_url": "https://dribbble.com/shots/3502310-Toolio/attachments/9861572?mode=media",
-		    "thumb_url": "http://example.com/path/to/thumb.png"
-		}
-	    ]
-	}
+			"type": 'section',
+			"text": {
+				"type": "mrkdwn",
+				"text": "Good Morning: Cascade Team"
+				{
+	
 			}
 		}
 	]
