@@ -10,10 +10,16 @@ def lambda_handler(event, context):
     payload = {
 	"blocks": [
 		{
-			"type": 'section',
+			"type": "section",
+			"block_id": "section567",
 			"text": {
 				"type": "mrkdwn",
-				"text": "Good Morning: Cascade Team"
+				"text": "Good Morning Cascade Team \n"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://cdn.dribbble.com/users/224717/screenshots/3502310/media/260976f18084809312abb35127cb158c.jpg",
+				"alt_text": "Mr Bot"
 			}
 		}
 	]
