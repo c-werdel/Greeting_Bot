@@ -1,7 +1,7 @@
 # Greeting_Bot with AWS, Python and Slack
 
 
-## A simple greeting bot for slack using Lambda and Event Bridge
+## A simple greeting bot for Slack using Lambda and AWS Services
 
 This project is an example of setting up a simple slack_bot that sends out a greeting notification every work day M-F. 
 It was designed using a simple python code and linked to slack and AWS. Every part of this project shows how to do the following:
